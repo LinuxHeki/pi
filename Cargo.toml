@@ -1,0 +1,10 @@
+[package]
+name = "pi"
+description = "Simple CLI program for calulacting digits of pi"
+authors = ["LinuxHeki <linuxheki@gmail.com>"]
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.2.2", features = ["derive"] }
+rug = "1.19.2"
